@@ -1,0 +1,8 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Test_Liberty_SJW
+  host: Test-Liberty-SJW
+  disk_quota: 1024M
